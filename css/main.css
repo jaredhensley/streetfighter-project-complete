@@ -1,0 +1,139 @@
+
+/*sets background of page to black*/
+body {
+	background-color: black;
+}
+
+.main {
+	vertical-align: middle;
+	background-color: white;
+	margin-top:110px;
+	padding-left: 100px;
+	min-height:500px;
+	min-width:1200px;
+	position:relative;
+	
+	background-image: url(../images/background3.jpg);
+	border-right: 5px solid black;
+}
+
+.ryu {
+	float: left;
+	width: 659px;
+	height: 494px;
+}
+
+
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+	width:659px;
+	height:494px;
+
+}
+
+.ryu-ready, .ryu-throwing, .ryu-cool {
+	display:none;
+
+}
+
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');
+
+}
+
+.ryu-still {
+	background-image: url('../images/ryu-standing-still.png');
+
+}
+
+.ryu-throwing {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+
+}
+
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+  background-repeat: no-repeat;
+}
+
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	float:left;
+	display: none;
+	position:absolute;
+	z-index:10;
+	top: 167px;
+	left: 520px;
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-family: 'crimes';
+	font-weight: 200;
+}
+
+h2 {
+	color:white;
+	text-align:center;
+	font-family: 'crimes';
+	font-weight: 200;
+}
+
+.text-content{
+	position: absolute;
+	left: 650px;
+	height: 425px;
+	width: 600px;
+	padding-top: 75px;
+}
+
+
+.sf-logo {
+	background-image: url('../images/sf-logo.png');
+	width: 682px;
+	height: 314px;
+	display: none;
+}
+
+.jquery-logo {
+	background-image: url('../images/jquery-logo.png');
+	width: 500px;
+	height: 172px;
+	display: none;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.brought-by, .how-to {
+	display: none;
+	color: red;
+	font-family: comical;
+	font-size: 1.5em;
+	width: 600px;
+}
+
+.brought-by {
+	text-align: center;
+	margin-top: 100px;
+}
+
+@font-face {
+    font-family: 'abuket';
+    src: url(../fonts/SF4.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'crimes';
+    src: url(../fonts/crimes.ttf) format("truetype");
+}
+
+/* * {
+  outline: red 1px solid;
+} */
